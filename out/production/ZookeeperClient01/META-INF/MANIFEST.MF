@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+Class-Path: jline-2.11.jar log4j-1.2.17.jar netty-3.10.5.Final.jar slf
+ 4j-api-1.7.5.jar slf4j-log4j12-1.7.5.jar zookeeper-3.5.2-alpha.jar ju
+ nit-4.10.jar
+Main-Class: com.lin.bigdata.zkdisc.DistributedClient
+

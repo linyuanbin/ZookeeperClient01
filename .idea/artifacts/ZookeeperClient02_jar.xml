@@ -1,0 +1,15 @@
+<component name="ArtifactManager">
+  <artifact name="ZookeeperClient02:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/ZookeeperClient02_jar</output-path>
+    <root id="root">
+      <element id="archive" name="ZookeeperClient01.jar">
+        <element id="directory" name="META-INF">
+          <element id="file-copy" path="$PROJECT_DIR$/META-INF/MANIFEST.MF" />
+        </element>
+        <element id="module-output" name="ZookeeperClient01" />
+      </element>
+      <element id="library" level="project" name="jline-2.11" />
+      <element id="library" level="project" name="junit-4.10" />
+    </root>
+  </artifact>
+</component>
