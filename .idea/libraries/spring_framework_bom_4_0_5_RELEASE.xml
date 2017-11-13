@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="spring-framework-bom-4.0.5.RELEASE">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/src/com/lin/spring/lib/spring-framework-bom-4.0.5.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

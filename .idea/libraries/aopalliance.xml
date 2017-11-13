@@ -1,0 +1,21 @@
+<component name="libraryTable">
+  <library name="aopalliance">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/src/com/lin/spring/lib/aopalliance.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/com/lin/spring/lib/aspectjweaver.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/com/lin/spring/lib/commons-logging-1.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/com/lin/spring/lib/junit-4.10.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/com/lin/spring/lib/log4j-1.2.15.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/com/lin/spring/lib/spring-aop-4.0.5.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/com/lin/spring/lib/spring-aspects-4.0.5.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/com/lin/spring/lib/spring-beans-4.0.5.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/com/lin/spring/lib/spring-context-4.0.5.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/com/lin/spring/lib/spring-context-support-4.0.5.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/com/lin/spring/lib/spring-core-4.0.5.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/com/lin/spring/lib/spring-expression-4.0.5.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/com/lin/spring/lib/spring-instrument-4.0.5.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

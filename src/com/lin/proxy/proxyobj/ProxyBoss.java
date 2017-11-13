@@ -15,7 +15,7 @@ public class ProxyBoss {    //getProxy是自定义的，参数个数不限，不
         return (T) Proxy.newProxyInstance(interfaceClass.getClassLoader(), new Class[]{interfaceClass}, new InvocationHandler() {
             @Override
             public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
-                Integer returnValue=(Integer)method.invoke(implementClass.newInstance(),args);//调用原始对象以后返回的值
+                Integer returnValue=(Integer)method.invoke(implementClass.newInstance(),args);//调用原始对象以后返回的值  implementClass.newInstance()得到Object对象
                 System.out.println("method:"+method+" args"+args.length);
                 return returnValue-disCountCoupon;//disCountCoupon相当于优惠劵，将原先的价格减去优惠劵金额
             }
@@ -24,7 +24,7 @@ public class ProxyBoss {    //getProxy是自定义的，参数个数不限，不
 
     public static <T> T getProxy2(final String name2,final Class<?> interfaceClass,final Class<?> implementClass){
         //disCountCoupon 代表代金卷   interfaceClass是旧的义务逻辑中的接口  implementClass是旧的业务逻辑中接口实现类
-        return (T) Proxy.newProxyInstance(interfaceClass.getClassLoader(), new Class[]{interfaceClass}, new InvocationHandler() {
+        return (T) Proxy.newProxyInstance(interfaceClass.getClassLoader(),new Class[]{interfaceClass}, new InvocationHandler() {
             @Override
             public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
                 String returnValue=(String)method.invoke(implementClass.newInstance(),args);//调用原始对象以后返回的值
