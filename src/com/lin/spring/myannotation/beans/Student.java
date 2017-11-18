@@ -6,8 +6,9 @@ import com.lin.spring.myannotation.MyAnnotation;
  * Created by lin on 2017/11/12.
  */
 
-@MyAnnotation("laowang")
+@MyAnnotation("Student")
 public class Student {
+    public String name="studentName";
 
     public Student(){
         System.out.println("Student");

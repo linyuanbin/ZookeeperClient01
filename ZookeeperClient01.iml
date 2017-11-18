@@ -11,5 +11,10 @@
     <orderEntry type="library" name="junit-4.10" level="project" />
     <orderEntry type="library" name="aopalliance" level="project" />
     <orderEntry type="library" name="spring-framework-bom-4.0.5.RELEASE" level="project" />
+    <orderEntry type="library" name="asm-3.2" level="project" />
+    <orderEntry type="library" name="hadoop-common-2.7.4" level="project" />
+    <orderEntry type="library" name="xz-1.0" level="project" />
+    <orderEntry type="library" name="slf4j-api-1.7.10" level="project" />
+    <orderEntry type="library" name="curator-recipes-2.7.1" level="project" />
   </component>
 </module>

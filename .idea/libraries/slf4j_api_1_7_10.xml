@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="slf4j-api-1.7.10">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/src/com/hadoop/hdfs/lib/slf4j-api-1.7.10.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/com/hadoop/hdfs/lib/slf4j-log4j12-1.7.10.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/com/hadoop/hdfs/lib/snappy-java-1.0.4.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/com/hadoop/hdfs/lib/stax-api-1.0-2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

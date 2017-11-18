@@ -6,8 +6,9 @@ import com.lin.spring.myannotation.MyAnnotation;
  * Created by lin on 2017/11/12.
  */
 
-@MyAnnotation("LaoLi")   //使用自定义的标签
+@MyAnnotation("Teacher")   //使用自定义的标签
 public class Teacher {
+    public String name="TeacherName";
 
     public Teacher(){
         System.out.println("Teacher");

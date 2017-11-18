@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="xz-1.0">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/src/com/hadoop/hdfs/lib/xz-1.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/com/hadoop/hdfs/lib/zookeeper-3.4.6.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
